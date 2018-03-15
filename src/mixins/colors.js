@@ -73,8 +73,9 @@ export const mixColors = (c1, c2, num = 0.5) =>
 		),
 	);
 
-export const darkenColor = ( color, num = 0.1, ) => mixColors("#000", color, num);
+export const darkenColor = (color, num = 0.1) => mixColors("#000", color, num);
 
-export const lightenColor = ( color, num = 0.1, ) => mixColors("#fff", color, num);
+export const lightenColor = (color, num = 0.1) => mixColors("#fff", color, num);
 
-export const transparent = ( num = 0.5, r = 0, g = 0, b = 0, ) => `rgba(${r},${g},${b},${ num })`;
+export const transparent = (num = 0.5, r = 0, g = 0, b = 0) =>
+	`rgba(${ r },${ g },${ b },${ num })`;

@@ -4,11 +4,13 @@
   "version": "0.1.0",
   "author": "Max Clayton Clowes <maxcc@me.com>",
   "dependencies": {
+    "ramda": "^0.25.0",
     "react": "16.2.0",
     "styled-components": "^3.2.3"
   },
   "devDependencies": {
     "codogo-scripts": "^3.2.10",
+    "eslint": "^4.18.2",
     "prettier": "^1.11.1"
   },
   "eslintConfig": {
