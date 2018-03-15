@@ -10,14 +10,20 @@ export const bgImage = url => `
 	background-image: url(${ url });
 `;
 
-export const clearfix = `
-	&:before,
-	&:after {
-		content: "";
-		display: table;
-	}
+export const clearfix = {
+	general: `
+		&:before,
+		&:after {
+			content: "";
+			display: table;
+		}
 
-	&:after {
-		clear: both;
-	}
-`;
+		&:after {
+			clear: both;
+		}
+	`,
+	link: `
+		text-decoration: none;
+		color: currentColor;
+	`,
+};

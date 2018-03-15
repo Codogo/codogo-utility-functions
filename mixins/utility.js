@@ -1,10 +1,10 @@
 import R from "ramda";
 
-export const objMap = (obj, cb) =>
-	Object.keys(obj).reduce(
-		(acc, key) => ({
-			...acc,
-			[key]: cb(key, obj[key]),
+export const objectMap = (object, something) =>
+	Object.keys(object).reduce(
+		(accumulator, key) => ({
+			...accumulator,
+			[key]: something(key, object[key]),
 		}),
 		{},
 	);
