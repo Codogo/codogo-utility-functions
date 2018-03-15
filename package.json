@@ -1,7 +1,7 @@
 {
   "name": "codogo-mixins",
   "description": "Codogo's mixins collection",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Max Clayton Clowes <maxcc@me.com>",
   "dependencies": {
     "ramda": "^0.25.0",
