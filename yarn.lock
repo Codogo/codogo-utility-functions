@@ -1381,7 +1381,7 @@ babel-polyfill@6.23.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-babel-preset-codogo@^3.2.10:
+babel-preset-codogo@^3.2.10, babel-preset-codogo@^3.2.9:
   version "3.2.10"
   resolved "https://registry.yarnpkg.com/babel-preset-codogo/-/babel-preset-codogo-3.2.10.tgz#3a3ada4d43e2b9a71af2f134c50bd0c31be6076e"
   dependencies:
@@ -2019,20 +2019,20 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codogo-scripts@^3.2.10:
-  version "3.2.10"
-  resolved "https://registry.yarnpkg.com/codogo-scripts/-/codogo-scripts-3.2.10.tgz#5c241882be7c215ba51a9a43b9d86dd2e37c1914"
+codogo-scripts@3.2.9:
+  version "3.2.9"
+  resolved "https://registry.yarnpkg.com/codogo-scripts/-/codogo-scripts-3.2.9.tgz#04072dbdf45cd24c84f1086634af3785d13a98bf"
   dependencies:
     "@babel/core" "^7.0.0-beta.38"
     "@babel/preset-env" "^7.0.0-beta.38"
     await-to-js "^2.0.1"
     babel-core "^6.26.0"
     babel-loader "^7.1.2"
-    babel-preset-codogo "^3.2.10"
+    babel-preset-codogo "^3.2.9"
     babel-preset-env "^1.6.1"
     clean-webpack-plugin "^0.1.17"
     copy-webpack-plugin "^4.4.2"
-    eslint-config-codogo "^3.2.10"
+    eslint-config-codogo "^3.2.9"
     eslint-loader "^1.9.0"
     extract-text-webpack-plugin "^3.0.2"
     graphql-loader "^1.2.1"
@@ -2808,7 +2808,7 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-codogo@^3.2.10:
+eslint-config-codogo@^3.2.10, eslint-config-codogo@^3.2.9:
   version "3.2.10"
   resolved "https://registry.yarnpkg.com/eslint-config-codogo/-/eslint-config-codogo-3.2.10.tgz#f1111605fc5355cc90203fec83035066ecaad69b"
   dependencies:
