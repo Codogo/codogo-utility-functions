@@ -1,7 +1,7 @@
 {
   "name": "codogo-utility-functions",
   "description": "Codogo's functions colleciton. Useful for styling, object mapping, etc.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Max Clayton Clowes <maxcc@me.com>",
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -10,7 +10,7 @@
     "styled-components": "^3.2.3"
   },
   "devDependencies": {
-    "codogo-scripts": "^3.2.9",
+    "codogo-scripts": "3.2.9",
     "eslint": "^4.18.2",
     "prettier": "^1.11.1"
   },
