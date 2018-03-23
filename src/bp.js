@@ -16,30 +16,25 @@ export const defaultBreakpoints = {
 };
 export const defaultBps = defaultBreakpoints;
 
-export const bp = objectMap( 
-		defaultBps, (key, val) => 
-		(
-			{
-				min: (...cont) =>
-					css`
-						@media (min-width: ${ val.min }px) {
-							${ css(...cont) };
-						}
-					`,
-				max: (...cont) =>
-					css`
-						@media (max-width: ${ val.max }px) {
-							${ css(...cont) };
-						}
-					`,
-				only: (...cont) => css`
-					@media (min-width: ${ val.min }px) and (max-width: ${ val.max }px) {
-						${ css(...cont) };
-					}
-				`,
+export const bp = objectMap(defaultBps, (key, val) => ({
+	min: (...cont) =>
+		css`
+			@media (min-width: ${ val.min }px) {
+				${ css(...cont) };
 			}
-		)
-	);
+		`,
+	max: (...cont) =>
+		css`
+			@media (max-width: ${ val.max }px) {
+				${ css(...cont) };
+			}
+		`,
+	only: (...cont) => css`
+		@media (min-width: ${ val.min }px) and (max-width: ${ val.max }px) {
+			${ css(...cont) };
+		}
+	`,
+}));
 
 export const xs = bp.xs.only;
 export const sm = bp.sm.only;

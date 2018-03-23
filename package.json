@@ -3,14 +3,14 @@
   "description": "Codogo's functions colleciton. Useful for styling, object mapping, etc.",
   "version": "1.0.4",
   "author": "Max Clayton Clowes <maxcc@me.com>",
+  "main": "build/index.js",
   "dependencies": {
-    "babel-core": "^6.26.0",
     "ramda": "^0.25.0",
     "react": "16.2.0",
     "styled-components": "^3.2.3"
   },
   "devDependencies": {
-    "codogo-scripts": "3.2.9",
+    "codogo-scripts": "^3.2.10",
     "eslint": "^4.18.2",
     "prettier": "^1.11.1"
   },
@@ -25,6 +25,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "build": "codogo-scripts pack",
     "format": "codogo-scripts format",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
