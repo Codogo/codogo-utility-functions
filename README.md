@@ -11,3 +11,99 @@ Categories:
 + Styles - Clearfixes, background images
 + Utility - ObjectMap
 
+
+---
+
+## Breakpoints
+
+### defaultBreakpoints
+
+### defaultBps
+
+### bp
+
+### xs
+
+### sm
+
+### md
+
+### lg
+
+### bpEach
+
+### bpEither
+
+
+---
+
+## Colors
+
+### hexToColor
+
+### getColor
+
+### rgba
+
+### mixColors
+
+### darkenColor
+
+### lightenColor
+
+### transparent
+
+
+---
+
+## Shadows
+
+### shadow
+
+### shadowProxy
+
+---
+
+## Sizing
+
+### wh
+
+### contained
+
+---
+
+## Styles
+
+### truncate
+
+### bgImage
+
+### clearfix
+
+
+---
+
+## Utility
+
+### objectMap
+
+### printObj
+
+### sentenceCase
+
+### bindMethods
+
+### path
+
+### removePx
+
+### num
+
+### addPx
+
+### px
+
+### addEm
+
+### em
+
