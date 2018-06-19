@@ -1,7 +1,7 @@
 {
   "name": "codogo-utility-functions",
   "description": "Codogo's functions colleciton. Useful for styling, object mapping, etc.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Max Clayton Clowes <maxcc@me.com>",
   "main": "lib/index.js",
   "babel": {
