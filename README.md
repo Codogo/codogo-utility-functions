@@ -1,6 +1,10 @@
 # codogo-utility-functions
 
-A collection of functions that are useful for various things.
+[![npm version](https://badge.fury.io/js/codogo-utility-functions.svg)](https://badge.fury.io/js/codogo-utility-functions)
+
+A collection of functions that are useful for supporting development of websites in react. Particularly focused towards supporting development of styled-components.
+
+---
 
 Categories:
 
