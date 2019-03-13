@@ -1,4 +1,4 @@
-import R from "ramda";
+// import R from "ramda";
 
 export const objectMap = (object, something) =>
 	Object.keys(object).reduce(
@@ -19,13 +19,13 @@ export const bindMethods = (that, methods) => {
 	});
 };
 
-export const path = pathStr =>
-	R.path(
-		pathStr.split(".").map(key => {
-			const num = parseInt(key, 10);
-			return isNaN(num) ? key : num;
-		}),
-	);
+// export const path = pathStr =>
+// 	R.path(
+// 		pathStr.split(".").map(key => {
+// 			const num = parseInt(key, 10);
+// 			return isNaN(num) ? key : num;
+// 		}),
+// 	);
 
 export const removePx = npx => +npx.replace("px", "");
 export const num = removePx;

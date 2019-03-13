@@ -10,8 +10,6 @@
     ]
   },
   "dependencies": {
-    "ramda": "^0.25.0",
-    "react": "16.3.2",
     "styled-components": "^3.2.6"
   },
   "devDependencies": {
